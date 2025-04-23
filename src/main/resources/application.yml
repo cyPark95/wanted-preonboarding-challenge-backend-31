@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: challenge
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/challenge
+    username: user
+    password: challenge
+
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+    hibernate:
+      ddl-auto: validate
